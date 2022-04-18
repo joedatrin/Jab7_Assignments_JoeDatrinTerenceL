@@ -1,0 +1,25 @@
+ScoreCard
+Create a class ScoreCard with a main method to analyze the runs scored by batsmen of a team. The input data format is given below. The program needs to output as given below. Use a concrete class of Map to achieve the functionality.
+Sample Input
+-------------
+Enter Runs Scored
+Rahane-20 Rahul-30 Kohli-150 Dhoni-50 Lokesh-2
+
+Sample Output
+-------------
+Players who batted
+Dhoni
+Kohli
+Lokesh
+Rahane
+Rahul
+Scores by Players
+Dhoni : 50
+Kohli : 150
+Lokesh : 2
+Rahane : 20
+Rahul : 30
+Total Score : 202
+Name of Highest Scorer : Kohli
+Runs Scored by Dhoni : 50
+
