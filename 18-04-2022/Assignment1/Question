@@ -1,0 +1,18 @@
+Inheritance and Abstraction 
+Create an abstract class Medicine to represent a drug manufactured by a pharmaceutical company
+ with attributes price and expiry date and a method getDetails() to print them. 
+ Also include an abstract function displayLabel() in the Medicine class. 
+ 
+Derive Tablet, Syrup and Ointment classes from the Medicine class. 
+Override the displayLabel() function in each of these classes
+ to print additional information suitable to the type of medicine. 
+ For example, in case of tablets, it could be “store in a cool dry place”, 
+ in case of ointments it could be “for external use only” etc.
+ 
+ 
+Create a class TestMedicine with the main method
+ that declares an array of Medicine references of size 5.
+  Create a medicine object of the type Tablet/Syrup/Ointment as
+   decided by a randomly generated integer in the range 1 to 3. 
+   (Refer Java API Documentation to find out random number generation)
+    Check the polymorphic behavior of the displayLabel() method.
